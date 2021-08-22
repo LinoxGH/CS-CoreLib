@@ -28,7 +28,6 @@ import me.mrCookieSlime.CSCoreLibPlugin.events.Listeners.ItemUseListener;
 import me.mrCookieSlime.CSCoreLibPlugin.events.Listeners.MapListener;
 import me.mrCookieSlime.CSCoreLibPlugin.events.Listeners.MenuClickListener;
 import me.mrCookieSlime.CSCoreLibPlugin.events.Listeners.StatisticListener;
-import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.CustomBookOverlay;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.Maps;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Inventory.MenuHelper;
 import me.mrCookieSlime.CSCoreLibPlugin.general.Player.PlayerStats;
@@ -124,7 +123,6 @@ public class CSCoreLib extends JavaPlugin {
 		Maps.instance = null;
 		instance = null;
 		MenuHelper.map = null;
-		CustomBookOverlay.opening = null;
 		PlayerRunnable.map = null;
 	}
 
